@@ -1,0 +1,73 @@
+site_name: Intro to Software Testing
+theme:
+  name: material
+  features:
+    - navigation.expand
+    # - navigation.path
+    # - navigation.tabs
+    # - navigation.tabs.sticky   # keep tabs visible when scrolling
+repo_url: https://github.com/brettadler/softwaretesting
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Learn the Lingo: lingo.md
+    - +Starter Guide: starter_guide.md
+    # - Deliverables: deliverables.md
+    - +Playbook: playbook.md
+    - +Playbook Full: playbook_full.md
+  - Learn Testing:
+    - Fundamentals: fundamentals.md
+    - Education: education.md
+    - Management: management.md
+    - SDLC: sdlc.md
+    - Techniques: techniques.md
+    - Terms: terms.md
+  - Testing Industry:
+    - Industry: industry_software_testing.md
+    - Community: community.md
+    - Glossary: glossary.md
+    - Tools: tools.md
+    - Events: events.md
+    - Careers: careers.md
+    - Job Boards: job_boards.md
+  - And More:
+    - About: about.md
+    - Read Me: readme.md
+    - More: more.md
+    - Leftover Notes: leftover_notes.md
+    - AI: ai.md
+    - Backup: backup.md
+    - Figma Instructions: figma_instructions.md
+    - Industry Research Template: industry_research_template.md
+    - License: license.md
+    # - Gerhkin Style: gerhkin_style.md
+
+    # Add most of these.....
+    # - Introduction: introduction.md
+    # - Test Design Techniques: test_design_techniques.md
+    # - Test Plans: test_plans.md
+    # - Test Cases: test_cases.md
+    # - Overview: industry/overview.md
+    # - Trends: industry/trends.md
+    # - Challenges: industry/challenges.md
+    # - Resources: industry/resources.md
+    # - Release Notes: release-notes.md
+    # - Why Test?: why_test.md
+    # - QA vs Testing: qa_vs_testing.md
+    # - Manual vs Automated: manual_vs_automated.md
+    # - Types of Testing: types_of_testing.md
+    # - Test Levels: test_levels.md
+    # - Bug Life Cycle: bug_life_cycle.md
+    # - Testing Metrics: testing_metrics.md
+    # - Defect Reporting: defect_reporting.md
+    # - Testing Process: testing_process.md
+    # - Agile Testing: agile_testing.md
+    # - DevOps & CI/CD: devops_ci_cd.md
+
+plugins:
+  - search
+  # - mkdocstrings
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

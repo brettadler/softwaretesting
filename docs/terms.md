@@ -1,0 +1,41 @@
+# Testing Types & Terms
+
+Below is a glossary of common software testing types and terms for quick reference:
+
+- **API Testing:** Verifies APIs return correct responses, handle errors gracefully, and integrate well with other systems.
+- **AR/VR Testing:** Tests augmented and virtual reality applications for user experience, performance, and hardware compatibility.
+- **Accessibility Testing:** Ensures software is usable by people with disabilities, meeting standards like Section 508 and WCAG.
+- **Analytics Testing:** Checks that user actions are accurately tracked and reported by analytics platforms.
+- **Automation Testing:** Uses scripts and tools to automatically execute tests, speeding up regression and repetitive tasks.
+- **Beta Testing:** Releases software to a limited external audience to gather feedback before full launch.
+- **Black Box, Gray Box, White Box Testing:** Refers to tester knowledge level: black box (no internal knowledge), gray box (partial), white box (full code-level understanding).
+- **Compatibility Testing:** Ensures consistent behavior and appearance across different browsers, devices, and operating systems.
+- **Decomp & Test Script Development:** Reverse engineers or analyzes app builds and writes scripts for automated or manual test execution.
+- **Defect Investigation & Validation:** Analyzes, reproduces, and confirms bugs; retests fixes to ensure resolution.
+- **Exploratory Testing:** Unscripted, hands-on testing to uncover unexpected behavior, driven by tester intuition.
+- **Functional Testing:** Verifies software features work according to requirements, focusing on user actions and expected outcomes.
+- **Acceptance Testing:** Ensures software meets business and end-user needs before release.
+- **Graphic Uniformity Testing:** Ensures consistent layout, styling, and branding across UI elements.
+- **Lifecycle Management:** Manages testing activities across the software development lifecycle.
+- **Livestream Testing:** Validates quality and stability of live video streaming (buffering, resolution, latency).
+- **Localization Testing:** Validates software adaptation for different languages, regions, and cultures.
+- **Location Testing:** Tests location-based features (GPS, geofencing) for accuracy across regions and devices.
+- **Mobile App Testing:** Tests mobile applications on various devices and OS versions for functionality and usability.
+- **On-Demand Project Work:** Provides flexible, short-term testing and QA services for specific project needs.
+- **Payments Testing:** Tests payment flows for secure, accurate transactions across methods and currencies.
+- **Performance Testing:** Assesses system speed, responsiveness, and stability under load or stress.
+- **QA Documentation:** Documents testing processes and procedures, including instructions for manual testers or users.
+- **Real-Device Testing:** Tests apps or websites on actual physical devices to ensure accurate performance.
+- **Regression Testing:** Re-tests existing functionality to ensure new changes haven't introduced bugs.
+- **Sanity Testing:** Verifies specific functionality works after a bug fix or minor update.
+- **Smoke Testing:** Quick initial test to check if the most critical functions work after a new build.
+- **Staff Augmentation:** Provides skilled QA professionals to support teams for short or long-term projects.
+- **Subjective Testing:** Evaluates look-and-feel, design quality, or user preference based on human judgment.
+- **System Testing:** Validates the complete and integrated software system for compliance with requirements.
+- **Test Case Maintenance:** Keeps test cases up to date with software changes and enhancements.
+- **Test Case Writing & Editing:** Develops and maintains step-by-step test scenarios based on requirements.
+- **Test Design & Test Plans:** Defines test objectives, scope, approach, and detailed test cases.
+- **Test Plan Management:** Oversees creation, execution, and tracking of comprehensive test plans.
+- **Usability Testing:** Assesses how intuitive and user-friendly the software is by observing real users.
+- **User Acceptance Testing (UAT):** Confirms software meets business needs and is ready for deployment.
+- **Voice Testing:** Tests voice-controlled interfaces (e.g., Siri, Alexa) for accurate recognition and response.
