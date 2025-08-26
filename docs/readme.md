@@ -3,12 +3,12 @@
 This repository contains comprehensive documentation about the software testing industry, curated and maintained by the community. The documentation is written in Markdown and published using [MkDocs](https://www.mkdocs.org/).
 
 ## Features
+[See index](index.md)
 
 - Industry best practices and standards
 - Guides, glossaries, and templates
 - Educational resources for testers
 - Community contributions and events
-
 - Software testing fundamentals and techniques
 - AI in testing
 - SDLC and management practices
@@ -41,7 +41,7 @@ To view the documentation locally:
 
 ## Contributing
 
-Contributions are welcome! Please submit issues or pull requests to help improve and expand the documentation. See the `CONTRIBUTING.md` (if available) for guidelines.
+Contributions are welcome! Please submit issues or pull requests to help improve and expand the documentation. See the [`contributing.md`](contributing.md) for guidelines.
 
 ## License
 

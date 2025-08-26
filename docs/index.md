@@ -2,12 +2,49 @@
 
 Welcome! We're building a practical, community-driven resource for learning the essentials and advanced concepts of software testing and quality assurance. Whether you're preparing for the ISTQB Foundation Level exam, starting a QA career, or looking to deepen your expertise, you'll find organized guides, glossaries, and actionable advice here.
 
+## Quick Links
+*below is a work in progress*
+
+### Getting Started
+- [Learn the Lingo](lingo.md)
+- [Industry Starter Guide](starter_guide.md)
+- [Industry Playbook](playbook.md)
+- [Industry Full](playbook_full.md)
+
+### Learn Testing
+<!-- - [Fundamentals](fundamentals.md) -->
+- [Fundamentals of Testing](fundamentals.md)
+- [Education](education.md) - Books, Blogs, Newsletters, and Podcasts
+- [Education & Certifications](education.md)
+- [Management](management.md)
+- [SDLC](sdlc.md)
+- [Techniques](techniques.md)
+- [Terms](terms.md)
+
+### Testing Industry
+- [Industry](industry_software_testing.md)
+- [Community](community.md)
+- [Glossary](glossary.md)
+- [Tools](tools.md)
+- [Events](events.md)
+- [Careers](careers.md)
+- [Job Boards](job_boards.md)
+
+### And More
+- [About](about.md)
+- [Read Me](readme.md)
+- [More](more.md)
+- [Leftover Notes](leftover_notes.md)
+- [AI](ai.md)
+- [Backup](backup.md)
+- [Figma Instructions](figma_instructions.md)
+- [Industry Research Template](industry_research_template.md)
+- [License](license.md)
+
 <!-- ## Table of Contents -->
 
 ## Introduction
 - [Purpose of the Guide](about.md)
-- [Industry Insight - Playbook](playbook.md)
-- [Industry Insight - Playbook Full Post](playbook_full.md)
 - [Figma Instructions](figma_instructions.md)
 
 ## Industry Insights
@@ -20,11 +57,10 @@ Welcome! We're building a practical, community-driven resource for learning the 
 - [Industry Insight - Software Testing](industry_software_testing.md)
 
 ## Getting Started
-- [Learn the Lingo](lingo.md)
 - [Ready the Glossary](glossary.md)
 * Map Out the Players
 * First Steps for Beginners
-- [Fundamentals of Testing](fundamentals.md)
+
 
 ## Software Testing 101
 - [Software Testing in the SDLC](sdlc.md)
@@ -41,8 +77,6 @@ Welcome! We're building a practical, community-driven resource for learning the 
 * Social Media Platforms, Forums, and Channels
 
 ## Media and Resources
-* Educational Materials: Books, Blogs, Newsletters, and Podcasts
-- [Education & Certifications](education.md)
 * Visual Learning: Videos and Webinars
 
 ## Events and Networking

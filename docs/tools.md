@@ -2,43 +2,69 @@
 Tool Support for Testing (Categories, Examples, Vendors)
 
 ## Summary of our Go-To Tools
-**Test Mgmt**: Jira(+Xray/Zephyr/TestRail), Azure DevOps, qTest
-**Defects**: Jira, Bugzilla, MantisBT
-**Static Analysis**: SonarQube, ESLint, Pylint/Flake8, Checkstyle/PMD, Fortify, Coverity
-**UI/Web Automation**: Selenium, Cypress, Playwright
-**Unit**: JUnit/TestNG, PyTest, Jest, Mocha/Chai, xUnit/NUnit
-**Mobile**: Appium, Espresso, XCTest/XCUITest
-**API**: Postman, RestAssured, SuperTest, Karate
-**Performance**: JMeter, LoadRunner, Gatling, k6, BlazeMeter
-**Coverage**: JaCoCo, Cobertura, coverage.py, Istanbul/nyc, dotCover
-**Security**: OWASP ZAP, Burp Suite, Veracode, Checkmarx
-**CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD, Azure Pipelines, CircleCI
-**TDM/Env**: Informatica TDM, Delphix, Datprof, Mockaroo; virtualization: WireMock, Mountebank
 
+- **Test Mgmt**: Jira(+Xray/Zephyr/TestRail), Azure DevOps, qTest
+- **Defects**: Jira, Bugzilla, MantisBT
+- **Static Analysis**: SonarQube, ESLint, Pylint/Flake8, Checkstyle/PMD, Fortify, Coverity
+- **UI/Web Automation**: Selenium, Cypress, Playwright
+- **Unit**: JUnit/TestNG, PyTest, Jest, Mocha/Chai, xUnit/NUnit
+- **Mobile**: Appium, Espresso, XCTest/XCUITest
+- **API**: Postman, RestAssured, SuperTest, Karate
+- **Performance**: JMeter, LoadRunner, Gatling, k6, BlazeMeter
+- **Coverage**: JaCoCo, Cobertura, coverage.py, Istanbul/nyc, dotCover
+- **Security**: OWASP ZAP, Burp Suite, Veracode, Checkmarx
+- **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD, Azure Pipelines, CircleCI
+- **TDM/Env**: Informatica TDM, Delphix, Datprof, Mockaroo; virtualization: WireMock, Mountebank
 
 ### Unit / Component / Code-level
-Jest (React/JS), Vitest + React Testing Library, PyTest (Python), JUnit/TestNG (Java), Mocha/Chai (Node), xUnit/NUnit (.NET), RSpec (Ruby).
+- Jest (React/JS)
+- Vitest + React Testing Library
+- PyTest (Python)
+- JUnit/TestNG (Java)
+- Mocha/Chai (Node)
+- xUnit/NUnit (.NET)
+- RSpec (Ruby)
 
 ### API / Integration
-Postman, Rest Assured (https://rest-assured.io), SuperTest, Karate, SoapUI.
+- Postman
+- Rest Assured (https://rest-assured.io)
+- SuperTest
+- Karate
+- SoapUI
 
 ### Web UI / Browser
-Selenium, Cypress (https://www.cypress.io), Playwright (https://playwright.dev), Katalon Studio (https://katalon.com), BrowserStack cloud grid (https://www.browserstack.com/).
+- Selenium
+- Cypress (https://www.cypress.io)
+- Playwright (https://playwright.dev)
+- Katalon Studio (https://katalon.com)
+- BrowserStack cloud grid (https://www.browserstack.com/)
 
 ### Mobile
-Appium, Espresso (Android), XCTest/XCUITest (iOS).
+- Appium
+- Espresso (Android)
+- XCTest/XCUITest (iOS)
 
 ### Performance / Load / Reliability
-JMeter, k6, Gatling, LoadRunner, BlazeMeter.
+- JMeter
+- k6
+- Gatling
+- LoadRunner
+- BlazeMeter.
 
 ### Static Analysis / Coverage
-SonarQube; ESLint / Pylint / Flake8 / Checkstyle / PMD; coverage: JaCoCo, Cobertura, coverage.py, Istanbul/nyc, dotCover.
+- SonarQube; 
+- ESLint / Pylint / Flake8 / Checkstyle / PMD; 
+- coverage: JaCoCo, Cobertura, coverage.py, Istanbul/nyc, dotCover
 
 ### Security (AppSec)
-OWASP ZAP, Burp Suite, Veracode, Checkmarx; plus Nmap/Metasploit for network-level.
+- OWASP ZAP, Burp Suite, Veracode, Checkmarx; plus Nmap/Metasploit for network-level.
 
 ### Test Management / Defects
-Jira (+Xray/Zephyr/TestRail), Azure DevOps Test Plans, qTest, PractiTest, Bugzilla/MantisBT/Redmine.
+- Jira (+Xray/Zephyr/TestRail)
+- Azure DevOps Test Plans
+- qTest
+- PractiTest
+- Bugzilla/MantisBT/Redmine
 
 ### Test Data & Environments
 Informatica TDM, Delphix, Datprof, Mockaroo; service virtualization: WireMock, Mountebank.
@@ -99,47 +125,108 @@ Automation & Tooling (What’s Covered)
 - **Examples**:
   - **Jira** (Atlassian) + **Xray**, **Zephyr**, **TestRail** (commonly paired)
   - **Azure DevOps Test Plans** (Microsoft)
-  - **qTest** (Tricentis), **PractiTest**, **TestLink** (OSS)
 
-### 6.2 Defect / Issue Tracking
-- **Purpose**: log, triage, track lifecycle; link to requirements/tests.
-- **Examples**: **Jira**, **Bugzilla**, **MantisBT**, **Redmine**.
+  # Software Testing Tools
 
-### 6.3 Static Analysis / Code Quality
-- **Purpose**: analyze code without execution; enforce standards; detect vulnerabilities.
-- **Examples**: **SonarQube**, **ESLint** (JS/TS), **Pylint/Flake8** (Python), **Checkstyle/PMD** (Java), **Fortify**, **Coverity**.
+  This page provides an organized overview of essential tools for software testing, grouped by category. Each section includes popular tools, their purpose, and links for further exploration.
 
-### 6.4 Test Execution & Automation
-- **Web/UI**: **Selenium WebDriver**, **Cypress**, **Playwright**.
-- **Unit Testing**: **JUnit**, **TestNG** (Java); **PyTest** (Python); **Jest** (JS/React); **Mocha/Chai** (Node); **xUnit/NUnit** (.NET).
-- **Mobile**: **Appium**, **Espresso** (Android), **XCTest/XCUITest** (iOS).
-- **API**: **Postman**, **RestAssured** (Java), **SuperTest** (Node), **Karate**.
+  ---
 
-### 6.5 Performance / Load / Reliability
-- **Purpose**: throughput, latency, scalability, stability under stress/soak.
-- **Examples**: **JMeter** (Apache), **LoadRunner** (Micro Focus), **Gatling**, **k6** (Grafana), **BlazeMeter**.
+  ## Quick Reference Table
 
-### 6.6 Test Data Management (TDM) & Environment
-- **Purpose**: generate/mask/subset data; manage environments and virtualization.
-- **Examples**: **Informatica TDM**, **Delphix**, **Datprof**, **Mockaroo**; service virtualization: **WireMock**, **Mountebank**.
+  | Category                | Key Tools & Vendors                                                                 |
+  |------------------------ |-----------------------------------------------------------------------------------|
+  | Test Management         | Jira (+Xray/Zephyr/TestRail), Azure DevOps, qTest, PractiTest, TestLink            |
+  | Defect Tracking         | Jira, Bugzilla, MantisBT, Redmine                                                  |
+  | Static Analysis         | SonarQube, ESLint, Pylint/Flake8, Checkstyle, PMD, Fortify, Coverity               |
+  | UI/Web Automation       | Selenium, Cypress, Playwright, Katalon Studio, BrowserStack                        |
+  | Unit Testing            | JUnit, TestNG, PyTest, Jest, Mocha/Chai, xUnit/NUnit, RSpec                        |
+  | Mobile Testing          | Appium, Espresso, XCTest/XCUITest                                                  |
+  | API Testing             | Postman, RestAssured, SuperTest, Karate, SoapUI                                    |
+  | Performance Testing     | JMeter, LoadRunner, Gatling, k6, BlazeMeter                                        |
+  | Coverage Measurement    | JaCoCo, Cobertura, coverage.py, Istanbul/nyc, dotCover                            |
+  | Security Testing        | OWASP ZAP, Burp Suite, Veracode, Checkmarx, Nmap, Metasploit                      |
+  | CI/CD & Orchestration   | Jenkins, GitHub Actions, GitLab CI/CD, Azure Pipelines, CircleCI                   |
+  | Test Data & Environments| Informatica TDM, Delphix, Datprof, Mockaroo, WireMock, Mountebank                  |
 
-### 6.7 CI/CD & Orchestration (Test Integration)
-- **Purpose**: automate builds/tests/deploys; collect results & gates.
-- **Examples**: **Jenkins**, **GitHub Actions**, **GitLab CI/CD**, **Azure Pipelines**, **CircleCI**.
+  ---
 
-### 6.8 Coverage Measurement
-- **Purpose**: measure structural coverage (statements/branches), requirement coverage.
-- **Examples**: **JaCoCo**, **Cobertura** (Java), **coverage.py** (Python), **Istanbul/nyc** (JS/TS), **dotCover** (.NET).
+  ## Tool Categories & Details
 
-### 6.9 Security Testing (AppSec)
-- **Purpose**: DAST/SAST/IAST; OWASP Top 10; threat modeling.
-- **Examples**: **OWASP ZAP** (DAST), **Burp Suite**, **Veracode**, **Checkmarx**; network tools: **Nmap**, **Metasploit**.
+  ### Test Management
+  Manage test assets, traceability, execution, and reporting. Integrate with CI/CD and issue tracking.
+  - **Jira** (+Xray, Zephyr, TestRail)
+  - **Azure DevOps Test Plans**
+  - **qTest**, **PractiTest**, **TestLink**
 
-### Benefits of Tools
-- **Efficiency**, **repeatability**, **traceability**, **integration** with agile/DevOps, **faster feedback**.
+  ### Defect / Issue Tracking
+  Log, triage, and track defects. Link issues to requirements and tests.
+  - **Jira**, **Bugzilla**, **MantisBT**, **Redmine**
 
-### Risks & Challenges
-- Over-reliance; maintenance overhead; learning curve; environment flakiness; false sense of coverage.
+  ### Static Analysis / Code Quality
+  Analyze code for standards and vulnerabilities without execution.
+  - **SonarQube**, **ESLint** (JS/TS), **Pylint/Flake8** (Python), **Checkstyle/PMD** (Java), **Fortify**, **Coverity**
 
-### Success Factors
-- Clear **goals** and **ROI**; **pilot** first; **training/coaching**; integrate with **process/CI**; review metrics and **adapt**.
+  ### Test Execution & Automation
+  Automate tests for web, unit, mobile, and APIs.
+  - **Web/UI**: Selenium WebDriver, Cypress, Playwright, Katalon Studio, BrowserStack
+  - **Unit**: JUnit, TestNG, PyTest, Jest, Mocha/Chai, xUnit/NUnit, RSpec
+  - **Mobile**: Appium, Espresso (Android), XCTest/XCUITest (iOS)
+  - **API**: Postman, RestAssured, SuperTest, Karate, SoapUI
+
+  ### Performance / Load / Reliability
+  Test throughput, latency, scalability, and stability under stress.
+  - **JMeter**, **LoadRunner**, **Gatling**, **k6**, **BlazeMeter**
+
+  ### Coverage Measurement
+  Measure code and requirement coverage.
+  - **JaCoCo**, **Cobertura** (Java), **coverage.py** (Python), **Istanbul/nyc** (JS/TS), **dotCover** (.NET)
+
+  ### Security Testing (AppSec)
+  Test for vulnerabilities, compliance, and threats.
+  - **OWASP ZAP**, **Burp Suite**, **Veracode**, **Checkmarx**, **Nmap**, **Metasploit**
+
+  ### Test Data Management & Environments
+  Generate, mask, and manage test data and environments. Use virtualization for service simulation.
+  - **Informatica TDM**, **Delphix**, **Datprof**, **Mockaroo**, **WireMock**, **Mountebank**
+
+  ### CI/CD & Orchestration
+  Automate builds, tests, and deployments. Integrate results and gates.
+  - **Jenkins**, **GitHub Actions**, **GitLab CI/CD**, **Azure Pipelines**, **CircleCI**
+
+  ---
+
+  ## Special Topics & Tips
+
+  - **Selenium vs. BrowserStack**: Selenium is an automation library; BrowserStack is a cloud device/browser grid that can run Selenium, Playwright, or Cypress tests.
+  - **Accessibility Testing**: axe DevTools, Accessibility Insights for Web, TPGI ARC Toolkit, ANDI, Web Developer extension.
+  - **Email Testing**: MailHog, Mailpit, Mailosaur, Ethereal Email, Mailtrap.
+  - **Mac Setup for Selenium (Python)**:
+
+    1. Install Python & pip
+    2. `pip install selenium webdriver-manager`
+    3. Use Selenium Manager or WebDriver Manager
+    4. Create a simple pytest project and run in CI
+
+  ---
+
+  ## Benefits of Testing Tools
+
+  - Efficiency and repeatability
+  - Traceability and reporting
+  - Integration with agile/DevOps
+  - Faster feedback and automation
+
+  ## Risks & Challenges
+
+  - Over-reliance and maintenance overhead
+  - Learning curve and environment flakiness
+  - False sense of coverage
+
+  ## Success Factors
+
+  - Set clear goals and ROI
+  - Pilot tools before full adoption
+  - Provide training and coaching
+  - Integrate with process and CI
+  - Review metrics and adapt

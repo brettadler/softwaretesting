@@ -23,7 +23,7 @@ nav:
     - Techniques: techniques.md
     - Terms: terms.md
   - Testing Industry:
-    - Industry: industry_software_testing.md
+    - Software Testing: industry_software_testing.md
     - Community: community.md
     - Glossary: glossary.md
     - Tools: tools.md
@@ -31,15 +31,17 @@ nav:
     - Careers: careers.md
     - Job Boards: job_boards.md
   - And More:
-    - About: about.md
-    - Read Me: readme.md
     - More: more.md
     - Leftover Notes: leftover_notes.md
     - AI: ai.md
     - Backup: backup.md
     - Figma Instructions: figma_instructions.md
     - Industry Research Template: industry_research_template.md
+  - Learn More:
+    - Read Me: readme.md
+    - About: about.md
     - License: license.md
+    - Contributing: contributing.md
     # - Gerhkin Style: gerhkin_style.md
 
     # Add most of these.....
