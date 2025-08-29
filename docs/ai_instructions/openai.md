@@ -17,7 +17,7 @@
 - produce sample data.
 
 ## Use OpenAI Codex in Visual Studio Code
-Codex is OpenAI’s coding agent that can read, modify, and run code. It helps you build faster, squash bugs, and understand unfamiliar code. With the Codex VS Code extension you can use Codex side-by-side in your IDE, or delegate tasks to the cloud.
+Codex is OpenAI’s coding agent, capable of reading, modifying, and running code. It helps you build faster, squash bugs, and understand unfamiliar code. With the Codex VS Code extension you can use Codex side-by-side in your IDE, or delegate tasks to the cloud.
 
 Add Codex as a panel in VS Code to chat, edit, and preview changes seamlessly. With context from opened files and selected code, you can write shorter prompts and get faster, more relevant results.
 
@@ -39,7 +39,7 @@ Codex runs in an interactive terminal UI. You can ask Codex to do anything, and 
 [https://developers.openai.com/codex/cloud/code-review](https://developers.openai.com/codex/cloud/code-review)
 
 ## Create AGENTS.md
-Create a AGENTS.md file to inform Codex how to navigate your codebase, which commands to run for testing, and how best to adhere to your project's standard practices. Like human developers, Codex agents perform best when provided with configured dev environments, reliable testing setups, and clear documentation.
+Create an AGENTS.md file to inform Codex how to navigate your codebase, which commands to run for testing, and how best to adhere to your project's standard practices. Like human developers, Codex agents perform best when provided with configured dev environments, reliable testing setups, and clear documentation.
 
 ### Template for AGENTS.md
 

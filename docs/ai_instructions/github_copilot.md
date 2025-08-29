@@ -18,7 +18,7 @@ Interact with a chat interface that lets you ask coding-related questions. GitHu
 
 * Inline completions and Chat panel for explaining code, generating tests, debugging ideas, and more.
 * Run a quick review on a selection or a deeper pass on your uncommitted changes from the Source Control view.
-* Open Chat from the Copilot menu / shortcut, t Alexa set alarm for 10:15 AMhen reference files or selections for focused help.  ￼
+* Open Chat from the Copilot menu / shortcut, then reference files or selections for focused help.
 
 [https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
 
@@ -28,6 +28,8 @@ An autonomous AI agent that can make code changes for you. You can assign a GitH
 [https://docs.github.com/en/copilot/using-github-copilot/coding-agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent)
 
 [https://docs.github.com/en/copilot/concepts/coding-agent/coding-agent](https://docs.github.com/en/copilot/concepts/coding-agent/coding-agent)
+
+[https://github.com/bitovi/ai-enablement-prompts](https://github.com/bitovi/ai-enablement-prompts)
 
 ## Use GitHub Copilot with your Terminal
 A chat-like interface in the terminal, where you can ask questions about the command line. You can ask Copilot to provide command suggestions or explanations of commands. Users can also integrate Copilot in Windows Terminal Canary. See Using GitHub Copilot in the command line.
@@ -138,7 +140,7 @@ Enhance Copilot Chat responses by providing contextual details on your preferenc
 * Extract coding patterns and naming conventions
 * Document features and domain logic
 * Identify the technology stack and major frameworks used
-* Mapp out file purposes and categorizing project structure
+* Map out file purposes and categorize project structure
 * Infer architecture and design patterns and document them
 * Understand domain concepts and key features
 * Generate stylistic and structural guidance for future code contributions
@@ -220,7 +222,7 @@ Determine which architectural domains are present in the project. Consider:
 You are a senior software engineer responsible for generating style guides that explain what makes this codebase unique. Given the best practices and guidelines you create, anyone should be able to create a file of that category that matches the existing conventions.
 
 * Review every individual file listed under each category
-* Identify only the unique and distinctive patternsthat make this project stand out from standard conventions
+* Identify only the unique and distinctive patterns that make this project stand out from standard conventions
 * Focus on project-specific approaches, custom patterns, and non-standard implementations
 * Create one markdown file per category highlighting only these unique conventions
 ```

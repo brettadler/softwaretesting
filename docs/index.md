@@ -2,6 +2,24 @@
 
 Welcome! We're building a practical, community-driven resource for learning the essentials and advanced concepts of software testing and quality assurance. Whether you're preparing for the ISTQB Foundation Level exam, starting a QA career, or looking to deepen your expertise, you'll find organized guides, glossaries, and actionable advice here.
 
+> This site is a work in progress. Check back soon....
+
+## Features / Topics
+- Industry best practices and standards
+- Guides, glossaries, and templates
+- Educational resources for testers
+- Community contributions and events
+- Software testing fundamentals and techniques
+- AI in testing
+- SDLC and management practices
+- Glossary, lingo, and terms
+- Industry research and trends
+- Careers, job boards, and education
+- Community, events, and deliverables
+- Playbooks and templates
+- Tools and backup strategies
+- Figma instructions and more
+
 <!-- ## Table of Contents -->
 
 ### Getting Started

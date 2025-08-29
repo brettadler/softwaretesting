@@ -1,4 +1,4 @@
-# Using Antrophic’s Claude for Software Development
+# Using Anthropic’s Claude for Software Development
 
 [https://claude.ai](https://claude.ai)
 

@@ -15,11 +15,11 @@
 * Chatbots and voicebots
 
 ## Use AI Coding Assistants
-- OpenAI ChatGPT & Codex - [docs/ai_instructions/openai.md](ai_instructions/openai.md)
-- GitHub Copilot - [docs/ai_instructions/github_copilot.md](ai_instructions/github_copilot.md)
-- Figma Make - [docs/ai_instructions/figma.md](ai_instructions/figma.md)
-- Antrophic Claude [docs/ai_instructions/claude.md](ai_instructions/claude.md)
-- Google Gemini - https://codeassist.google
+- [Using OpenAI](ai_instructions/openai.md)
+- [Using GitHub Copilot](ai_instructions/github_copilot.md)
+- [Using Figma Make](ai_instructions/figma.md)
+- [Using Antrophic Claude Code](ai_instructions/claude.md)
+- [Using Google Gemini](ai_instructions/gemini.md)
 - Google Jules - https://jules.google
 - Vercel’s v0 - https://v0.dev
 - Cursor - https://cursor.com
@@ -59,4 +59,4 @@
 - [React Documentation](https://react.dev)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 - [Prisma Documentation](https://www.prisma.io/docs)
-- [Project Wiki](https://github.com/company/taskflow/wiki)
+- [AI Enablement Stack](https://github.com/daytonaio/ai-enablement-stack)

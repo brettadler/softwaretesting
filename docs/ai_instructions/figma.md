@@ -17,7 +17,7 @@
 Create a `design-guidelines.md` file to steer AI coding behavior.
 
 #### Guidelines Template File
-This template is just some few examples of things you can add. Adjust and format it to suit your needs.
+This template provides a few examples of things you can add. Adjust and format it to suit your needs.
 
 ```md
 # System Guidelines

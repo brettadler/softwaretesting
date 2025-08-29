@@ -2,27 +2,11 @@
 
 This repository contains comprehensive documentation about the software testing industry, curated and maintained by the community. The documentation is written in Markdown and published using [MkDocs](https://www.mkdocs.org/).
 
-## Features
-[See index](index.md)
-
-- Industry best practices and standards
-- Guides, glossaries, and templates
-- Educational resources for testers
-- Community contributions and events
-- Software testing fundamentals and techniques
-- AI in testing
-- SDLC and management practices
-- Glossary, lingo, and terms
-- Industry research and trends
-- Careers, job boards, and education
-- Community, events, and deliverables
-- Playbooks and templates
-- Tools and backup strategies
-- Figma instructions and more
-
 ## Getting Started
 
-To view the documentation locally:
+To view the raw documentation, [view the index](index.md).
+
+To view the documentation through MkDocs locally:
 
 1. Install [MkDocs](https://www.mkdocs.org/):
 	```sh
