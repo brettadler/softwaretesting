@@ -1,9 +1,5 @@
 # LATEST BEFORE NEW ONE ABOVE....
 
-
-
-
-
 # Learning the Lingo & Concepts
 Welcome! Think of this as your friendly tour of **software testing**—built to match the **ISTQB Foundation Level** topics. You’ll see what the words mean, why they matter, and how to use them on the job. No jargon maze, just plain-English explanations you can put to work right away.
 

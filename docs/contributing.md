@@ -11,7 +11,7 @@ Thank you for your interest in contributing! This project is open source and wel
 
 ## Guidelines
 
-- Use clear, concise language and proper Markdown formatting.
+- Use clear, concise language and proper [Markdown formatting](https://www.markdownguide.org/cheat-sheet/).
 - Reference sources where appropriate.
 - Ensure your contributions are relevant to the software testing industry.
 - Be respectful and constructive in all communications.

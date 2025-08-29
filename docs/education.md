@@ -1,12 +1,12 @@
 # Education
 
-## Books
+## Webinars / Workshops / Seminars
 
-## Blogs, 
+## Programs
 
-## Newsletters
 
-## Podcasts
+## Bootcamps
+
 
 ## Certifications
 - **ISTQB Certified Tester Foundation Level (CTFL):** foundational testing principles. <https://www.istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/>

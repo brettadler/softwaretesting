@@ -25,26 +25,26 @@ This page provides an organized overview of essential tools for software testing
 
 ## Categories & Details
 
-### 1) Test Management
+### Test Management
 Manage test assets, traceability, execution, and reporting. Integrate with CI/CD and issue tracking.
 
 - **Jira** (+**Xray**, **Zephyr**, **TestRail**)
 - **Azure DevOps Test Plans**
 - **qTest**, **PractiTest**, **TestLink**
 
-### 2) Defect / Issue Tracking
+### Defect / Issue Tracking
 Log, triage, and track defects; link to requirements and tests.
 
 - **Jira**, **Bugzilla**, **MantisBT**, **Redmine**
 
-### 3) Static Analysis / Code Quality
+### Static Analysis / Code Quality
 Analyze code for standards, bugs, and vulnerabilities without executing it.
 
 - **SonarQube**
 - **ESLint** (JS/TS), **Pylint/Flake8** (Python), **Checkstyle/PMD** (Java)
 - **Fortify**, **Coverity**
 
-### 4) Code Coverage
+### Code Coverage
 Measure code paths exercised by tests.
 
 - **JaCoCo**, **Cobertura** (Java)
@@ -52,7 +52,7 @@ Measure code paths exercised by tests.
 - **Istanbul/nyc** (JS/TS)
 - **dotCover** (.NET)
 
-### 5) Unit / Component / Code-level Testing
+### Unit / Component / Code-level Testing
 Build fast, isolated tests close to the code; support TDD/BDD patterns.
 
 - **JavaScript/TypeScript**: **Jest**, **Vitest**, **Mocha/Chai**, **React Testing Library**
@@ -61,7 +61,7 @@ Build fast, isolated tests close to the code; support TDD/BDD patterns.
 - **.NET**: **xUnit**, **NUnit**
 - **Ruby**: **RSpec**
 
-### 6) API / Integration Testing
+### API / Integration Testing
 Validate REST/SOAP contracts, workflows, and system integrations.
 
 - **Postman**
@@ -70,7 +70,7 @@ Validate REST/SOAP contracts, workflows, and system integrations.
 - **Karate**
 - **SoapUI**
 
-### 7) Web UI / Browser Testing
+### Web UI / Browser Testing
 Automate end-to-end user flows; cross-browser/device; network stubbing and visual checks.
 
 - **Selenium** (library/WebDriver)
@@ -84,30 +84,30 @@ Automate end-to-end user flows; cross-browser/device; network stubbing and visua
 > **Selenium** = automation **library**.
 > **BrowserStack** = cloud **grid** of browsers/devices that can run tests built with Selenium, Playwright, or Cypress.
 
-### 8) Mobile Testing
+### Mobile Testing
 
 - **Appium** (cross-platform)
 - **Espresso** (Android)
 - **XCTest/XCUITest** (iOS)
 
-### 9) Performance / Load / Reliability
+### Performance / Load / Reliability
 Throughput, latency, scalability, soak/stress.
 
 - **JMeter**, **k6**, **Gatling**, **LoadRunner**, **BlazeMeter**
 
-### 10) Security Testing (AppSec)
+### Security Testing (AppSec)
 DAST/IAST/SAST, vulnerability scanning, and security verification.
 
 - **OWASP ZAP**, **Burp Suite**, **Veracode**, **Checkmarx**
 - Network-level: **Nmap**, **Metasploit**
 
-### 11) Test Data & Environments
+### Test Data & Environments
 Data generation/masking, environment provisioning, and service virtualization.
 
 - **Informatica TDM**, **Delphix**, **Datprof**, **Mockaroo**
 - Virtualization/mocking: **WireMock**, **Mountebank**
 
-### 12) CI/CD & Orchestration
+### CI/CD & Orchestration
 Automate build, test, deploy; enforce quality gates; surface test results.
 
 - **Jenkins**, **GitHub Actions**, **GitLab CI/CD**, **Azure Pipelines**, **CircleCI**
@@ -171,3 +171,10 @@ Automate build, test, deploy; enforce quality gates; surface test results.
 - **Security**: OWASP ZAP, Burp Suite, Veracode, Checkmarx
 - **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD, Azure Pipelines, CircleCI
 - **TDM/Environments**: Informatica TDM, Delphix, Datprof, Mockaroo; virtualization: WireMock, Mountebank
+
+---
+
+## Emerging Technologies
+
+
+---

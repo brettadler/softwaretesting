@@ -1,4 +1,4 @@
-# Glossary of Terms - by Apspiritech
+# Glossary of Terms - by Aspiritech
 
 "Quality Assurance lingo and software testing jargon can be confusing. That’s why we assembled this glossary of commonly used words and phrases that we thought would be helpful to the community, clients, and future industry professionals."
 

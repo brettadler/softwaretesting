@@ -2,19 +2,21 @@ site_name: Intro to Software Testing
 theme:
   name: material
   features:
-    - navigation.expand
+    # - navigation.expand
+    - navigation.sections
     # - navigation.path
     # - navigation.tabs
     # - navigation.tabs.sticky   # keep tabs visible when scrolling
 repo_url: https://github.com/brettadler/softwaretesting
 nav:
-  - Home: index.md
+  # - Home: index.md
   - Getting Started:
     - Learn the Lingo: lingo.md
     - +Starter Guide: starter_guide.md
-    # - Deliverables: deliverables.md
+    - Deliverables: deliverables.md
     - +Playbook: playbook.md
     - +Playbook Full: playbook_full.md
+    - Software Testing: industry_software_testing.md
   - Learn Testing:
     - Fundamentals: fundamentals.md
     - Education: education.md
@@ -22,14 +24,15 @@ nav:
     - SDLC: sdlc.md
     - Techniques: techniques.md
     - Terms: terms.md
+    - Scrum/Agile: scrum_agile.md
   - Testing Industry:
-    - Software Testing: industry_software_testing.md
     - Community: community.md
+    - Media: media.md
     - Glossary: glossary.md
     - Tools: tools.md
     - Events: events.md
     - Careers: careers.md
-    - Job Boards: job_boards.md
+    # - Job Boards: job_boards.md
   - And More:
     - More: more.md
     - Leftover Notes: leftover_notes.md

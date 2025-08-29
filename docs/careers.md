@@ -1,5 +1,8 @@
 # Careers in Software Testing & Quality Assurance
+
 Software testing and QA offer diverse career opportunities for people with technical, analytical, and communication skills. Roles range from manual testers to automation engineers, and from analysts to leadership positions. The field is constantly evolving with new tools, methodologies, and technologies.
+
+See [Job Boards](job_boards.md) for a list of job boards.
 
 ## Popular Roles & Titles
 

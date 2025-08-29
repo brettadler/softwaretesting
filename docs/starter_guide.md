@@ -27,14 +27,14 @@
 - **Quality Assurance (QA)**: process-oriented—prevents defects (e.g., standards, reviews).
 - **Quality Control (QC)**: product-oriented—detects defects (e.g., executing tests).
 
-**Seven Principles (memorable shorthand)**
+**Seven Principles**
 
-1. Tests show presence, not absence, of defects. 
+1. Tests show presence, not absence, of defects.
 2. Exhaustive testing is impossible.
-3. Test early. 
-4. Defects cluster. 
-5. Vary tests (pesticide paradox). 
-6. Context matters. 
+3. Test early.
+4. Defects cluster.
+5. Vary tests (pesticide paradox).
+6. Context matters.
 7. Bug-free ≠ useful.
 
 ---
@@ -167,6 +167,7 @@ Manual testing • Automated testing • Test cases • Selenium/Playwright/Cypr
 ---
 
 ## 11) CI/CD Essentials for QA (Lean Startup Matrix)
+
 **Must-haves**: Linting (ESLint, Ruff/Flake8), Type checks (TypeScript, mypy), Unit & component tests, API smoke, Build, Basic security (npm/yarn/pip audit), Formatting checks (Prettier/Black), Docker build.
 
 **Nice-to-have (phase 2)**: Playwright/Cypress smoke on PR, Contract tests, Accessibility smoke (axe), Performance budget (Lighthouse), Migration checks, DB schema drift, Seeded test data.
