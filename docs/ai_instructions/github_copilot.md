@@ -24,7 +24,7 @@ Create a `.github/copilot-instructions.md` file to steer GitHub Copilot's coding
 * **Commit message and PR templates:** structure, checklists, “what to include” in AI-authored PRs.
 * **Prompt patterns:** how to ask Copilot/ChatGPT for components, tests, migrations, docs; do/don’t lists; examples.
 
-### Copilot Instructions File Template
+### Template for copilot-instructions.md
 
 ```md
 # .github/copilot-instructions.md

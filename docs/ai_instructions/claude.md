@@ -27,7 +27,7 @@ CLAUDE.md is a special file that Claude automatically pulls into context when st
 * Any unexpected behaviors or warnings particular to the project
 * Other information you want Claude to remember
 
-### Claude Instructions File Template
+### Template for CLAUDE.md
 There’s no required format for CLAUDE.md files. They recommend keeping them concise and human-readable. For example:
 
 ```md

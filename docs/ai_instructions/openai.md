@@ -15,7 +15,7 @@ Create a AGENTS.md file to inform Codex how to navigate your codebase, which com
 
 [https://openai.com/index/introducing-codex](https://openai.com/index/introducing-codex)
 
-### Agents.md File Template
+### Template for AGENTS.md
 
 ```md
 # AGENTS.md
