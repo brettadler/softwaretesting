@@ -21,7 +21,7 @@ To view the documentation through MkDocs locally:
 	```sh
 	mkdocs serve
 	```
-4. Open your browser and go to `http://127.0.0.1:8000/`.
+4. Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ## Contributing
 

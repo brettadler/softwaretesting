@@ -698,13 +698,3 @@
 **Wide Band Delphi:** An expert-based test estimation technique that aims at accurate estimation using the collective wisdom of team members.
 
 ---
-
-## Footnotes
-
-1. “IEEE Standard Glossary of Software Engineering Terminology,” in *IEEE Std 610.12-1990*, vol., no., pp.1–84, 31 Dec. 1990, doi: [10.1109/IEEESTD.1990.101064](https://doi.org/10.1109/IEEESTD.1990.101064).
-2. [ISTQB Glossary – Accessibility Testing](https://glossary.istqb.org/en/term/accessibility-testing), reference Gerrard.
-3. [ISO 9126: Software Engineering – Product Quality](https://www.iso.org/standard/35733.html).
-4. [ISTQB Glossary PDF](http://www.istqb.org/downloads/glossary-1.0.pdf) – *Software Test Automation: Effective Use of Test Execution Tools* / M. Fewster, D. Graham.
-5. [Erik van Veenendaal – Publications](http://www.erikvanveenendaal.nl/en/publicaties/artikelen/) – multiple articles. *Erik van Veenendaal*.
-
----
