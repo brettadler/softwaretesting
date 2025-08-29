@@ -1,4 +1,6 @@
-# Using Figma AI for Software Development
+# Using AI in Figma for Software Design & Development
+
+[need to add more details here about Figma Make and Figma AI]
 
 [figma_instructions.md](../figma_instructions.md)
 
@@ -150,6 +152,27 @@ AgeWell Innovators uses an accessible color palette that maintains brand identit
 - Action bar with sort options, export, and add user buttons
 - Clean table design without excessive card containers
 - Use brand colors for primary action buttons
+
+## Content Guidelines
+
+### Money and Rating References
+
+**CRITICAL RULE: Never mention money or ratings anywhere in the application.**
+
+- **NO monetary references**: Do not use dollar signs ($), currency amounts, or phrases like "earn money", "get paid", "cash rewards", etc.
+- **NO rating systems**: Do not include star ratings, numerical ratings, or any system that rates testers, hub leaders, or organizations
+- **USE points-based language**: All rewards must be expressed as "points" (e.g., "250 points", "earn points", "point rewards")
+- **Icons**: Use Trophy icons for rewards, not DollarSign icons
+- **Testimonials and content**: Replace any money references with point amounts (e.g., "I've earned 80,000 points" instead of "I've earned $800")
+
+This rule applies to:
+- All landing pages and marketing content
+- Tester dashboards and opportunity listings
+- Admin interfaces and activity management
+- Email templates and notifications
+- Help documentation and user guides
+
+The platform uses a gamified, points-based reward system to maintain compliance and create a positive, non-monetary experience for older adult users.
 
 ## General Guidelines
 

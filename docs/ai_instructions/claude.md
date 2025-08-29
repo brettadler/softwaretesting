@@ -1,21 +1,39 @@
-# Instructions for Claude
+# Using Antrophic’s Claude for Software Development
 
-## Using Claude for software development
+[https://claude.ai](https://claude.ai)
 
-- Ask Claude to write tests based on expected input/output pairs. Be explicit about the fact that you’re doing test-driven development so that it avoids creating mock implementations, even for functionality that doesn’t exist yet in the codebase.
-- Tell Claude to run the tests and confirm they fail. Explicitly telling it not to write any implementation code at this stage is often helpful.
-- Ask Claude to commit the tests when you’re satisfied with them.
-- Ask Claude to write code that passes the tests, instructing it not to modify the tests. Tell Claude to keep going until all tests pass. It will usually take a few iterations for Claude to write code, run the tests, adjust the code, and run the tests again.
-- At this stage, it can help to ask it to verify with independent subagents that the implementation isn’t overfitting to the tests
-- Ask Claude to commit the code once you’re satisfied with the changes.
-- Claude performs best when it has a clear target to iterate against—a visual mock, a test case, or another kind of output. By providing expected outputs like tests, Claude can make changes, evaluate results, and incrementally improve until it succeeds.
+## What Claude Code can do for you
+- Build features from descriptions: Tell Claude what you want to build in plain English. It will make a plan, write the code, and ensure it works.
+- Debug and fix issues: Describe a bug or paste an error message. Claude Code will analyze your codebase, identify the problem, and implement a fix.
+- Navigate any codebase: Ask anything about your team’s codebase, and get a thoughtful answer back. Claude Code maintains awareness of your entire project structure, can find up-to-date information from the web, and with MCP can pull from external datasources like Google Drive, Figma, and Slack.
+- Automate tedious tasks: Fix fiddly lint issues, resolve merge conflicts, and write release notes. Do all this in a single command from your developer machines, or automatically in CI.
 
 [https://www.anthropic.com/claude-code](https://www.anthropic.com/claude-code)
 
-[https://www.anthropic.com/engineering/claude-code-best-practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+[https://docs.anthropic.com/en/docs/claude-code/overview](https://docs.anthropic.com/en/docs/claude-code/overview)
+
+## Why Developers love Claude Code
+- Works in your terminal: Not another chat window. Not another IDE. Claude Code meets you where you already work, with the tools you already love.
+- Takes action: Claude Code can directly edit files, run commands, and create commits. Need more? MCP lets Claude read your design docs in Google Drive, update your tickets in Jira, or use your custom developer tooling.
+- Unix philosophy: Claude Code is composable and scriptable. tail -f app.log | claude -p "Slack me if you see any anomalies appear in this log stream" works. Your CI can run claude -p "If there are new text strings, translate them into French and raise a PR for @lang-fr-team to review".
+- Enterprise-ready: Use Anthropic’s API, or host on AWS or GCP. Enterprise-grade security, privacy, and compliance is built-in.
+
+## Use Claude Code with Visual Studio
+Claude Code works great with any Integrated Development Environment (IDE) that has a terminal. Just run claude, and you’re ready to go. In addition, Claude Code provides dedicated integrations for popular IDEs, which provide features like interactive diff viewing, selection context sharing, and more.
+
+[https://docs.anthropic.com/en/docs/claude-code/ide-integrations](https://docs.anthropic.com/en/docs/claude-code/ide-integrations)
+
+## Use Claude Code with your Terminal
+Complete reference for Claude Code command-line interface, including commands and flags.
+
+[https://docs.anthropic.com/en/docs/claude-code/cli-reference](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
+
+## Use Claude Code for Code Reviews on GitHub
+Claude Code GitHub Actions brings AI-powered automation to your GitHub workflow. With a simple @claude mention in any PR or issue, Claude can analyze your code, create pull requests, implement features, and fix bugs - all while following your project’s standards.
+
+[https://docs.anthropic.com/en/docs/claude-code/github-actions](https://docs.anthropic.com/en/docs/claude-code/github-actions)
 
 ## Create CLAUDE.md
-
 CLAUDE.md is a special file that Claude automatically pulls into context when starting a conversation. This makes it an ideal place for documenting:
 
 * Common bash commands
@@ -193,3 +211,14 @@ npm run db:seed
 # Development server
 npm run dev
 ```
+
+## Instructions for testing with Claude Code
+- Ask Claude to write tests based on expected input/output pairs. Be explicit about the fact that you’re doing test-driven development so that it avoids creating mock implementations, even for functionality that doesn’t exist yet in the codebase.
+- Tell Claude to run the tests and confirm they fail. Explicitly telling it not to write any implementation code at this stage is often helpful.
+- Ask Claude to commit the tests when you’re satisfied with them.
+- Ask Claude to write code that passes the tests, instructing it not to modify the tests. Tell Claude to keep going until all tests pass. It will usually take a few iterations for Claude to write code, run the tests, adjust the code, and run the tests again.
+- At this stage, it can help to ask it to verify with independent subagents that the implementation isn’t overfitting to the tests
+- Ask Claude to commit the code once you’re satisfied with the changes.
+- Claude performs best when it has a clear target to iterate against—a visual mock, a test case, or another kind of output. By providing expected outputs like tests, Claude can make changes, evaluate results, and incrementally improve until it succeeds.
+
+[https://www.anthropic.com/engineering/claude-code-best-practices](https://www.anthropic.com/engineering/claude-code-best-practices)

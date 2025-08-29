@@ -1,21 +1,63 @@
 # Using GitHub Copilot for Software Development
 
+[https://github.com/features/copilot](https://github.com/features/copilot)
+
+[https://docs.github.com/copilot](https://docs.github.com/copilot)
+
+[https://docs.github.com/en/copilot/get-started/features](https://docs.github.com/en/copilot/get-started/features)
+
 ## Use GitHub Copilot on GitHub.com
-* Copilot Chat right in the browser to ask questions about a repo’s code, issues, and PRs.  ￼
-* Copilot Code Review can be added as a PR reviewer; it leaves feedback and often proposes ready-to-apply fixes.  ￼
-* Copilot Workspace on the web helps plan and prototype larger changes from a prompt (experimental).  ￼ ￼
+* Copilot Chat right in the browser to ask questions about a repo’s code, issues, and PRs.
+* Copilot Code Review can be added as a PR reviewer; it leaves feedback and often proposes ready-to-apply fixes.
+* Copilot Workspace on the web helps plan and prototype larger changes from a prompt (experimental).
 
-## Use GitHub Copilot in Visual Studio Code
+[https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-github](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-github)
+
+## Use GitHub Copilot Chat in Visual Studio Code
+Interact with a chat interface that lets you ask coding-related questions. GitHub Copilot Chat is available on the GitHub website, in GitHub Mobile, in supported IDEs (Visual Studio Code, Visual Studio, JetBrains IDEs, Eclipse IDE, and Xcode), and in Windows Terminal.
+
 * Inline completions and Chat panel for explaining code, generating tests, debugging ideas, and more.
-* Open Chat from the Copilot menu / shortcut, then reference files or selections for focused help.  ￼
+* Run a quick review on a selection or a deeper pass on your uncommitted changes from the Source Control view.
+* Open Chat from the Copilot menu / shortcut, t Alexa set alarm for 10:15 AMhen reference files or selections for focused help.  ￼
 
-## Use GitHub Copilot with CLI
+[https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
+
+## Use GitHub Copilot as a coding agent on GitHub
+An autonomous AI agent that can make code changes for you. You can assign a GitHub issue to Copilot and the agent will work on making the required changes, and will create a pull request for you to review. You can also ask Copilot to create a pull request from Copilot Chat.
+
+[https://docs.github.com/en/copilot/using-github-copilot/coding-agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent)
+
+[https://docs.github.com/en/copilot/concepts/coding-agent/coding-agent](https://docs.github.com/en/copilot/concepts/coding-agent/coding-agent)
+
+## Use GitHub Copilot with your Terminal
+A chat-like interface in the terminal, where you can ask questions about the command line. You can ask Copilot to provide command suggestions or explanations of commands. Users can also integrate Copilot in Windows Terminal Canary. See Using GitHub Copilot in the command line.
+
 * Copilot in the CLI (via GitHub CLI) explains commands and suggests CLI or Git/GitHub workflows from your terminal.  ￼
 * Install/enable it through the GitHub CLI, then use interactive prompts or one-off queries
 
-## Create copilot-instructions.md
+[https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
 
-Create a `.github/copilot-instructions.md` file to steer GitHub Copilot's coding behavior. Details can include:
+## Use GitHub Copilot for Code Reviews
+GitHub Copilot can review your code and provide feedback. Where possible, Copilot's feedback includes suggested changes which you can apply with a couple of clicks.
+
+* Request a review on GitHub.com: Open your PR, choose Reviewers → Copilot. Copilot leaves inline comments and, when possible, one-click suggested changes you can accept individually or as a batch.
+* Auto-assign Copilot: You can configure automatic reviews (for just your PRs, repo-wide, or org-wide) via rulesets/policies. Note Copilot only reviews PRs it’s assigned to.
+* Bring your standards: Add a repo instructions file at .github/copilot-instructions.md so Copilot’s review follows your style, security, and testing rules (same file used by Copilot Chat).
+* Keep a human in the loop: Treat Copilot as a powerful first pass—validate its comments and changes for correctness, security, and maintainability.
+
+[https://docs.github.com/en/copilot/concepts/code-review/code-review](https://docs.github.com/en/copilot/concepts/code-review/code-review)
+
+[https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review)
+
+## Use GitHub Copilot for Pull Request Summaries
+AI-generated summaries of the changes that were made in a pull request, which files they impact, and what a reviewer should focus on when they conduct their review.
+
+[https://docs.github.com/en/copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot](https://docs.github.com/en/copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot)
+
+[https://docs.github.com/en/copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary](https://docs.github.com/en/copilot/how-tos/use-copilot-for-common-tasks/create-a-pr-summary)
+
+## Create copilot-instructions.md
+Enhance Copilot Chat responses by providing contextual details on your preferences, tools, and requirements. Create a `.github/copilot-instructions.md` file to steer GitHub Copilot's coding behavior. Details can include:
 
 * **Tech stack defaults:** Next.js/React, TypeScript, Tailwind, shadcn/ui, Python (FastAPI/Flask), testing stacks.
 * **Code style & conventions:** formatting, lint rules, import order, naming.
@@ -23,6 +65,10 @@ Create a `.github/copilot-instructions.md` file to steer GitHub Copilot's coding
 * **Security & privacy rules:** secrets handling, PII redaction, dependency choices, license constraints.
 * **Commit message and PR templates:** structure, checklists, “what to include” in AI-authored PRs.
 * **Prompt patterns:** how to ask Copilot/ChatGPT for components, tests, migrations, docs; do/don’t lists; examples.
+
+[https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
+
+[https://docs.github.com/en/copilot/concepts/response-customization](https://docs.github.com/en/copilot/concepts/response-customization)
 
 ### Template for copilot-instructions.md
 

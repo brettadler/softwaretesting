@@ -1,26 +1,36 @@
-# Artificial Intelligence in QA
+# Using AI for Quality Assurance & Testing
 
-## Using AI for Testing
-
-### Using Generative AI
+## Use Generative AI for planning and documentation
 * Product Requirements
 * Test strategies
 * Test plans
 * Test scripts
 
-### Using AI to Test
+## Use Trained AI Models to Test Software
 * QA Bots
 
-### Testing AI
-* Models and training;
-* Chatbots and voicebots;
-* Using AI to test AI
+## Use AI to Test AI
+* AI's that test software
+* Models and training
+* Chatbots and voicebots
 
-## Guiding AI with Instructions
-- [docs/ai_instructions/openai.md](ai_instructions/openai.md)
-- [docs/ai_instructions/github_copilot.md](ai_instructions/github_copilot.md)
-- [docs/ai_instructions/figma.md](ai_instructions/figma.md)
-- [docs/ai_instructions/claude.md](ai_instructions/claude.md)
+## Use AI Coding Assistants
+- OpenAI ChatGPT & Codex - [docs/ai_instructions/openai.md](ai_instructions/openai.md)
+- GitHub Copilot - [docs/ai_instructions/github_copilot.md](ai_instructions/github_copilot.md)
+- Figma Make - [docs/ai_instructions/figma.md](ai_instructions/figma.md)
+- Antrophic Claude [docs/ai_instructions/claude.md](ai_instructions/claude.md)
+- Google Gemini - https://codeassist.google
+- Google Jules - https://jules.google
+- Vercel’s v0 - https://v0.dev
+- Cursor - https://cursor.com
+- Bolt - https://bolt.new
+- Perplexity - https://www.perplexity.ai
+- Tabnine - https://www.tabnine.com
+- Windsurf Editor - https://windsurf.com
+- JetBrains AI - https://www.jetbrains.com
+- Cline - https://cline.bot
+- Supermaven - https://supermaven.com
+- CodeRqbbit - https://www.coderabbit.ai
 
 ## Communication Preferences
 
